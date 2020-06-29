@@ -5,13 +5,6 @@ on: [push]
 
 # 3
 jobs:
-  build:
-    name: Greet
-    runs-on: ubuntu-latest
-     steps:
-      - name: Hello world step
-        run: echo Hello, World!
-
   time:
     name: Print date
     needs: 
