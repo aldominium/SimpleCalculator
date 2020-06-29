@@ -6,9 +6,7 @@ on: [push]
 # 3
 jobs:
   build:
-    # 4
     name: Greet
-    # 5
     runs-on: ubuntu-latest
      steps:
       - name: Hello world step
@@ -16,7 +14,6 @@ jobs:
 
   time:
     name: Print date
-    # 7
     needs: 
      - build
     runs-on: ubuntu-latest
