@@ -7,8 +7,6 @@ on: [push]
 jobs:
   time:
     name: Print date
-    needs: 
-     - build
     runs-on: ubuntu-latest
     steps:
      - run: echo "It is $(date)"
