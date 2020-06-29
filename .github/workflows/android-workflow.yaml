@@ -33,7 +33,7 @@ jobs:
           name: reports
           path: app/build/reports
           generate-apk:
-        name: Generate apk
+      - name: Generate apk
         runs-on: ubuntu-latest
         needs:
           - build-and-test
